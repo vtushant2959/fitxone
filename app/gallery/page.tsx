@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Gallery — FITXONE GYM Faridabad",
-  description: "See inside FITXONE GYM — state-of-the-art equipment, AC facility, group classes, personal training, and more in Sector 23, Faridabad.",
+  title: "Gallery — Indian Fitness Zone GYM Faridabad",
+  description: "See inside Indian Fitness Zone GYM — state-of-the-art equipment, AC facility, group classes, personal training, and more in Sector 23, Faridabad.",
 };
 
 const images = [
@@ -28,7 +28,7 @@ export default function GalleryPage() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">Our Facility</p>
           <h1 className="font-bebas text-5xl sm:text-7xl text-white tracking-wide mb-4">
-            INSIDE <span className="gradient-text">FITXONE GYM</span>
+            INSIDE <span className="gradient-text">Indian Fitness Zone GYM</span>
           </h1>
           <div className="section-divider mx-auto mb-6" />
           <p className="text-zinc-400 max-w-xl mx-auto">

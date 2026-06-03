@@ -4,28 +4,28 @@ const testimonials = [
   {
     name: "Rohit Malhotra",
     role: "Lost 22kg in 6 months",
-    text: "FITXONE GYM completely changed my life. The trainers here are incredibly dedicated and the atmosphere keeps you motivated every single day. Best gym in Faridabad, hands down!",
+    text: "Indian Fitness Zone GYM completely changed my life. The trainers here are incredibly dedicated and the atmosphere keeps you motivated every single day. Best gym in Faridabad, hands down!",
     stars: 5,
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
   },
   {
     name: "Pooja Singh",
     role: "Yoga & Zumba Member",
-    text: "I've tried many gyms but FITXONE is different. The yoga and Zumba classes are amazing. Coach Priya and Neha are super professional. The facility is always clean and AC is a bonus in summer!",
+    text: "I've tried many gyms but Indian Fitness Zone is different. The yoga and Zumba classes are amazing. Coach Priya and Neha are super professional. The facility is always clean and AC is a bonus in summer!",
     stars: 5,
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
   },
   {
     name: "Arjun Khanna",
     role: "CrossFit Enthusiast",
-    text: "The CrossFit classes at FITXONE are top-notch. Coach Amit pushes you just enough and knows exactly how to help you hit your goals. Highly recommend to anyone serious about fitness.",
+    text: "The CrossFit classes at Indian Fitness Zone are top-notch. Coach Amit pushes you just enough and knows exactly how to help you hit your goals. Highly recommend to anyone serious about fitness.",
     stars: 5,
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
   },
   {
     name: "Meena Rao",
     role: "Weight Loss Journey",
-    text: "Joined FITXONE after my doctor advised exercise. The team designed a custom program for me and the nutrition consulting was game-changing. Lost 15kg and feel healthier than ever!",
+    text: "Joined Indian Fitness Zone after my doctor advised exercise. The team designed a custom program for me and the nutrition consulting was game-changing. Lost 15kg and feel healthier than ever!",
     stars: 5,
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
   },
@@ -84,7 +84,7 @@ export default function Testimonials() {
         {/* Google Review CTA */}
         <div className="text-center mt-10">
           <a
-            href="https://www.google.com/maps/search/FITXONE+GYM+Sector+23+Faridabad"
+            href="https://www.google.com/maps/search/Indian Fitness Zone+GYM+Sector+23+Faridabad"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 hover:border-orange-500/40 text-white font-semibold px-6 py-3 rounded-xl transition-all"

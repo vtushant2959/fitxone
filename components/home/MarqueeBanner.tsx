@@ -1,8 +1,9 @@
 export default function MarqueeBanner() {
   const items = [
-    "HIIT Classes", "CrossFit", "Personal Training", "Yoga", "Zumba",
-    "Weight Training", "Aerobics", "Pilates", "Nutrition Consulting", "Cycling",
-    "Online Classes Available", "Expert Trainers", "4.5★ Rated",
+    "Personal Training", "Weight Training", "Muscle Building", "Fat Loss",
+    "Strength & Conditioning", "Body Transformation", "Expert Coaches",
+    "4.7★ Rated", "Ballabgarh Faridabad", "Open Till 10 PM",
+    "First Session FREE", "Beginner Friendly",
   ];
   const doubled = [...items, ...items];
 

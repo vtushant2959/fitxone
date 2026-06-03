@@ -1,15 +1,14 @@
-import { FaCheckCircle, FaWifi, FaSnowflake, FaParking, FaShower, FaUserShield, FaClock } from "react-icons/fa";
-import { MdSportsGymnastics } from "react-icons/md";
+import { FaCheckCircle, FaSnowflake, FaParking, FaShower, FaUserShield, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 
 const features = [
-  { icon: FaCheckCircle, title: "Expert Certified Trainers", desc: "All coaches are nationally certified with 5+ years of hands-on experience." },
-  { icon: FaWifi, title: "Online Classes Available", desc: "Can't make it in? Join live or on-demand classes from anywhere." },
-  { icon: FaSnowflake, title: "AC Facility", desc: "Train in comfort year-round with our fully air-conditioned gym." },
-  { icon: FaClock, title: "Open 5 AM – 10 PM", desc: "Early birds and night owls both welcome. 7 days a week." },
-  { icon: FaParking, title: "Free Parking", desc: "Hassle-free parking available for all members." },
-  { icon: FaShower, title: "Clean Changing Rooms", desc: "Hygienic locker rooms and showers for your convenience." },
-  { icon: FaUserShield, title: "Personalized Programs", desc: "Custom workout and diet plans tailored to your body and goals." },
-  { icon: MdSportsGymnastics, title: "Latest Equipment", desc: "State-of-the-art machines and free weights for every training style." },
+  { icon: FaCheckCircle, title: "Certified Expert Trainers", desc: "All coaches hold national certifications and have years of hands-on coaching experience." },
+  { icon: FaSnowflake, title: "AC Facility", desc: "Train comfortably year-round in our fully air-conditioned gym floor." },
+  { icon: FaClock, title: "Open 5 AM – 10 PM", desc: "Early morning or late evening — we are open 7 days a week for your convenience." },
+  { icon: FaParking, title: "Easy Access Location", desc: "Located on 2nd Floor, Sohna Rd — easily accessible from Ballabgarh and nearby areas." },
+  { icon: FaShower, title: "Clean Changing Rooms", desc: "Hygienic locker rooms so you can freshen up before or after your workout." },
+  { icon: FaUserShield, title: "Personalised Programs", desc: "Every member gets a training plan built around their body, goals, and schedule." },
+  { icon: FaMapMarkerAlt, title: "Prime Ballabgarh Location", desc: "Opposite Hero Agency on Sohna Road — right in the heart of Ballabgarh." },
+  { icon: FaCheckCircle, title: "Beginner to Advanced", desc: "Whether you are new to fitness or a seasoned athlete, our programs scale to you." },
 ];
 
 export default function WhyUs() {
@@ -20,28 +19,28 @@ export default function WhyUs() {
         <div>
           <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">Why Choose Us</p>
           <h2 className="font-bebas text-5xl sm:text-6xl text-white tracking-wide mb-4">
-            FARIDABAD&apos;S <span className="gradient-text">MOST TRUSTED</span> GYM
+            BALLABGARH&apos;S <span className="gradient-text">MOST TRUSTED</span> GYM
           </h2>
           <div className="section-divider mb-6" />
           <p className="text-zinc-400 mb-8 leading-relaxed">
-            With a 4.5-star Google rating and 160+ verified reviews, FITXONE GYM has been helping
-            Faridabad residents transform their bodies and lives for years. We&apos;re not just a gym —
-            we&apos;re a community built on results, respect, and relentless effort.
+            With a 4.7-star Google rating, Indian Fitness Zone is the top choice for personal training
+            and weight training in Ballabgarh and Faridabad. Our gym is built on results —
+            every session is purposeful, every trainer is passionate, and every member is treated like family.
           </p>
 
           {/* Image grid */}
           <div className="grid grid-cols-2 gap-3 rounded-2xl overflow-hidden">
             <div className="h-48 overflow-hidden rounded-xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80" alt="Gym floor" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80" alt="Personal training session" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="h-48 overflow-hidden rounded-xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80" alt="Training" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&q=80" alt="Weight training" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="h-48 overflow-hidden rounded-xl col-span-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=800&q=80" alt="Community" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=800&q=80" alt="Gym community" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>

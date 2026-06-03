@@ -52,7 +52,7 @@ export default function LeadForm() {
           </h2>
           <div className="section-divider mb-6" />
           <p className="text-zinc-300 text-lg mb-6 leading-relaxed">
-            No commitment. No credit card. Just show up and experience the FITXONE difference.
+            No commitment. No credit card. Just show up and experience the Indian Fitness Zone difference.
             Our trainers will assess your fitness level and recommend the perfect program for your goals.
           </p>
 
@@ -77,7 +77,7 @@ export default function LeadForm() {
               072178 29394
             </a>
             <a
-              href="https://wa.me/917217829394?text=Hi! I'd like to book a free trial session at FITXONE GYM."
+              href="https://wa.me/917217829394?text=Hi! I'd like to book a free trial session at Indian Fitness Zone GYM."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold px-6 py-3 rounded-xl transition-colors"
@@ -159,7 +159,7 @@ export default function LeadForm() {
               {loading ? "Booking Your Spot..." : <>Claim Free Trial Session <FaArrowRight /></>}
             </button>
             <p className="text-zinc-500 text-xs text-center">
-              By submitting, you agree to be contacted by FITXONE GYM via phone/WhatsApp. No spam, ever.
+              By submitting, you agree to be contacted by Indian Fitness Zone GYM via phone/WhatsApp. No spam, ever.
             </p>
           </form>
         </div>

@@ -5,12 +5,12 @@ import { FaCheck } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Gym Membership Plans & Pricing",
-  description: "Affordable gym membership plans at FITXONE GYM Sector 23 Faridabad. Starting from ₹999/month. No hidden fees. First session FREE!",
+  description: "Affordable gym membership plans at Indian Fitness Zone GYM Sector 23 Faridabad. Starting from ₹999/month. No hidden fees. First session FREE!",
 };
 
 const faqs = [
   { q: "Is there a joining fee?", a: "No! There are no joining fees or hidden charges. You only pay the monthly membership fee." },
-  { q: "Can I try before I join?", a: "Absolutely! Your first session at FITXONE GYM is completely FREE, no credit card required." },
+  { q: "Can I try before I join?", a: "Absolutely! Your first session at Indian Fitness Zone GYM is completely FREE, no credit card required." },
   { q: "Are there annual plan discounts?", a: "Yes! Annual memberships come with a 20% discount. Contact us for the exact pricing." },
   { q: "Do you offer student or corporate discounts?", a: "Yes! We have special rates for students and corporate group memberships. Call us for details." },
   { q: "Can I freeze my membership?", a: "Yes, you can freeze your membership for up to 1 month per year in case of illness or travel." },

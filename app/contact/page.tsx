@@ -4,7 +4,7 @@ import { FaPhone, FaMapMarkerAlt, FaClock, FaWhatsapp, FaInstagram, FaFacebook }
 
 export const metadata: Metadata = {
   title: "Contact & Free Trial",
-  description: "Book your FREE trial session at FITXONE GYM Sector 23 Faridabad. Call 072178 29394 or fill the form. Open 5 AM – 10 PM daily.",
+  description: "Book your FREE trial session at Indian Fitness Zone GYM Sector 23 Faridabad. Call 072178 29394 or fill the form. Open 5 AM – 10 PM daily.",
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">Get In Touch</p>
           <h1 className="font-bebas text-5xl sm:text-7xl text-white tracking-wide mb-4">
-            CONTACT <span className="gradient-text">FITXONE GYM</span>
+            CONTACT <span className="gradient-text">Indian Fitness Zone GYM</span>
           </h1>
           <div className="section-divider mx-auto mb-6" />
           <p className="text-zinc-400 max-w-xl mx-auto">
@@ -33,7 +33,7 @@ export default function ContactPage() {
               icon: FaMapMarkerAlt,
               title: "Our Location",
               lines: ["Block F, Sanjay Colony", "Sector 23, Faridabad", "Haryana 121005"],
-              link: "https://maps.google.com/?q=FITXONE+GYM+Sector+23+Faridabad",
+              link: "https://maps.google.com/?q=Indian Fitness Zone+GYM+Sector+23+Faridabad",
               linkText: "Get Directions",
             },
             {
@@ -81,13 +81,13 @@ export default function ContactPage() {
           <h2 className="font-bebas text-4xl text-white text-center mb-8 tracking-wide">FIND US ON THE <span className="gradient-text">MAP</span></h2>
           <div className="rounded-2xl overflow-hidden border border-zinc-800 h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.1!2d77.3178!3d28.3811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sFITXONE+GYM+Sector+23+Faridabad!5e0!3m2!1sen!2sin!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.1!2d77.3178!3d28.3811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sIndian Fitness Zone+GYM+Sector+23+Faridabad!5e0!3m2!1sen!2sin!4v1"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              title="FITXONE GYM Map"
+              title="Indian Fitness Zone GYM Map"
             />
           </div>
           <p className="text-center text-zinc-500 text-sm mt-4">

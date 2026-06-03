@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Fitness Programs & Services",
-  description: "Explore 14+ fitness programs at FITXONE GYM — HIIT, CrossFit, Yoga, Zumba, Personal Training, Weight Training, Pilates, Nutrition Consulting & more in Sector 23, Faridabad.",
+  description: "Explore 14+ fitness programs at Indian Fitness Zone GYM — HIIT, CrossFit, Yoga, Zumba, Personal Training, Weight Training, Pilates, Nutrition Consulting & more in Sector 23, Faridabad.",
 };
 
 const services = [

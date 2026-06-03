@@ -7,48 +7,44 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const bebasNeue = Bebas_Neue({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-bebas",
-});
+const bebasNeue = Bebas_Neue({ weight: "400", subsets: ["latin"], variable: "--font-bebas" });
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fitxonegym.in"),
+  metadataBase: new URL("https://indianfitnesszone.in"),
   title: {
-    default: "FITXONE GYM Sector 23 Faridabad | Best Gym Near You",
-    template: "%s | FITXONE GYM Faridabad",
+    default: "Indian Fitness Zone | Best Gym in Ballabgarh, Faridabad",
+    template: "%s | Indian Fitness Zone Faridabad",
   },
   description:
-    "FITXONE GYM in Sector 23, Faridabad — Top-rated gym (4.5★, 160+ reviews). Expert personal training, HIIT, CrossFit, Yoga, Zumba, Weight Training & more. Join now and transform your body!",
+    "Indian Fitness Zone — Top-rated gym (4.7★) in Ballabgarh, Faridabad. Expert personal training & weight training on Sohna Rd, opposite Hero Agency, Sanjay Colony. Join today & get your first session FREE!",
   keywords: [
-    "gym Faridabad", "best gym sector 23 Faridabad", "FITXONE GYM",
-    "personal training Faridabad", "CrossFit Faridabad", "HIIT classes Faridabad",
-    "yoga classes Faridabad", "weight training Faridabad", "Zumba Faridabad",
-    "fitness center sector 23", "gym near me Faridabad", "gym Sanjay Colony",
-    "affordable gym membership Faridabad", "online fitness classes",
+    "gym Ballabgarh", "gym Faridabad", "Indian Fitness Zone", "personal training Ballabgarh",
+    "weight training Faridabad", "best gym Sohna Road Faridabad", "gym Sanjay Colony Ballabgarh",
+    "fitness center Ballabgarh", "gym near me Ballabgarh", "personal trainer Faridabad",
+    "weight loss gym Faridabad", "muscle building gym Ballabgarh", "gym 2nd floor Sohna Rd",
+    "strength training Faridabad", "affordable gym membership Ballabgarh",
   ],
-  authors: [{ name: "FITXONE GYM" }],
-  creator: "FITXONE GYM",
+  authors: [{ name: "Indian Fitness Zone" }],
+  creator: "Indian Fitness Zone",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://fitxonegym.in",
-    siteName: "FITXONE GYM",
-    title: "FITXONE GYM — Transform Your Body | Sector 23, Faridabad",
+    url: "https://indianfitnesszone.in",
+    siteName: "Indian Fitness Zone",
+    title: "Indian Fitness Zone — Transform Your Body | Ballabgarh, Faridabad",
     description:
-      "Join Faridabad's top-rated gym! Expert coaches, 14+ fitness classes, personal training & nutrition consulting. Open daily till 10 PM. First session FREE!",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "FITXONE GYM Sector 23 Faridabad" }],
+      "Ballabgarh's top-rated gym! Expert personal trainers, professional weight training, and a results-driven fitness community. Open daily till 10 PM. First session FREE!",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Indian Fitness Zone Ballabgarh Faridabad" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "FITXONE GYM — Transform Your Body | Faridabad",
-    description: "Faridabad's top-rated gym with 14+ fitness programs. Join now!",
+    title: "Indian Fitness Zone — Best Gym in Ballabgarh, Faridabad",
+    description: "Expert personal training & weight training in Ballabgarh. 4.7★ rated. Join today!",
     images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://fitxonegym.in" },
+  alternates: { canonical: "https://indianfitnesszone.in" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -61,18 +57,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HealthClub",
-              name: "FITXONE GYM",
-              url: "https://fitxonegym.in",
-              telephone: "+917217829394",
+              name: "Indian Fitness Zone",
+              url: "https://indianfitnesszone.in",
+              telephone: "+917859995004",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Block F, Sanjay Colony",
-                addressLocality: "Sector 23, Faridabad",
+                streetAddress: "2nd Floor, Sohna Rd, opposite Hero Agency, Block F, Sanjay Colony",
+                addressLocality: "Ballabgarh, Faridabad",
                 addressRegion: "Haryana",
                 postalCode: "121005",
                 addressCountry: "IN",
               },
-              geo: { "@type": "GeoCoordinates", latitude: 28.3811, longitude: 77.3178 },
+              geo: { "@type": "GeoCoordinates", latitude: 28.3420, longitude: 77.3219 },
               openingHoursSpecification: [{
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
@@ -80,7 +76,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 closes: "22:00",
               }],
               priceRange: "₹₹",
-              aggregateRating: { "@type": "AggregateRating", ratingValue: "4.5", reviewCount: "160" },
+              aggregateRating: { "@type": "AggregateRating", ratingValue: "4.7", reviewCount: "7" },
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Fitness Services",
+                itemListElement: ["Personal Training", "Weight Training"],
+              },
             }),
           }}
         />

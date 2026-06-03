@@ -16,7 +16,7 @@ export default function GalleryPreview() {
         <div className="text-center mb-14">
           <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">Our Facility</p>
           <h2 className="font-bebas text-5xl sm:text-6xl text-white tracking-wide mb-4">
-            INSIDE <span className="gradient-text">FITXONE</span>
+            INSIDE <span className="gradient-text">Indian Fitness Zone</span>
           </h2>
           <div className="section-divider mx-auto mb-4" />
           <p className="text-zinc-400 max-w-xl mx-auto">

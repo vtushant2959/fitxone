@@ -2,10 +2,10 @@
 import { FaUsers, FaDumbbell, FaTrophy, FaStar } from "react-icons/fa";
 
 const stats = [
-  { icon: FaUsers, value: "500+", label: "Happy Members", color: "text-orange-400" },
-  { icon: FaDumbbell, value: "14+", label: "Fitness Programs", color: "text-red-400" },
-  { icon: FaTrophy, value: "5+", label: "Expert Trainers", color: "text-yellow-400" },
-  { icon: FaStar, value: "4.5★", label: "Google Rating", color: "text-orange-400" },
+  { icon: FaUsers, value: "200+", label: "Happy Members", color: "text-orange-400" },
+  { icon: FaDumbbell, value: "2", label: "Core Programs", color: "text-red-400" },
+  { icon: FaTrophy, value: "Expert", label: "Certified Trainers", color: "text-yellow-400" },
+  { icon: FaStar, value: "4.7★", label: "Google Rating", color: "text-orange-400" },
 ];
 
 export default function StatsBar() {

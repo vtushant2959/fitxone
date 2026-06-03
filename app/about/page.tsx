@@ -4,7 +4,7 @@ import { FaArrowRight, FaTrophy, FaUsers, FaHeart, FaStar } from "react-icons/fa
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about FITXONE GYM — Faridabad's most trusted fitness center in Sector 23 with 4.5★ rating and 160+ happy members.",
+  description: "Learn about Indian Fitness Zone GYM — Faridabad's most trusted fitness center in Sector 23 with 4.5★ rating and 160+ happy members.",
 };
 
 export default function AboutPage() {
@@ -13,13 +13,13 @@ export default function AboutPage() {
       <section className="pt-32 pb-16 bg-zinc-950 bg-grid">
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">About FITXONE</p>
+            <p className="text-orange-500 font-oswald uppercase tracking-widest text-sm mb-3">About Indian Fitness Zone</p>
             <h1 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-white tracking-wide mb-6 leading-tight">
               MORE THAN A GYM — <span className="gradient-text">A COMMUNITY</span>
             </h1>
             <div className="section-divider mb-6" />
             <p className="text-zinc-300 text-lg leading-relaxed mb-6">
-              FITXONE GYM was founded with one mission: to make world-class fitness accessible to every resident
+              Indian Fitness Zone GYM was founded with one mission: to make world-class fitness accessible to every resident
               of Faridabad. Located in the heart of Sector 23, Sanjay Colony, we&apos;ve built a gym that
               welcomes beginners, athletes, women, seniors, and youth alike.
             </p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
             ].map((src, i) => (
               <div key={i} className="overflow-hidden rounded-xl">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt="FITXONE GYM" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={src} alt="Indian Fitness Zone GYM" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: "Results-Driven", icon: "🎯", desc: "Every program, every session, every rep is designed to get you visible, lasting results." },
-              { title: "Inclusive Community", icon: "🤝", desc: "Beginners to athletes, all ages and fitness levels — everyone belongs at FITXONE." },
+              { title: "Inclusive Community", icon: "🤝", desc: "Beginners to athletes, all ages and fitness levels — everyone belongs at Indian Fitness Zone." },
               { title: "Expert Guidance", icon: "🏆", desc: "Nationally certified trainers who customize every workout to your unique body and goals." },
               { title: "Safety First", icon: "🛡️", desc: "Proper form, spotting, and injury prevention are non-negotiable in every session." },
               { title: "Clean & Modern", icon: "✨", desc: "Top-of-the-line equipment, AC facility, and spotless hygiene for your comfort." },
@@ -96,7 +96,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-16 bg-gradient-to-r from-orange-600 to-red-600">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="font-bebas text-5xl text-white tracking-wide mb-4">READY TO JOIN THE FITXONE FAMILY?</h2>
+          <h2 className="font-bebas text-5xl text-white tracking-wide mb-4">READY TO JOIN THE Indian Fitness Zone FAMILY?</h2>
           <p className="text-orange-100 text-lg mb-8">Your first session is on us. No commitments, just results.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="bg-white text-orange-600 font-bold px-10 py-4 rounded-xl hover:bg-zinc-100 transition-colors text-lg">

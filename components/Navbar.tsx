@@ -36,8 +36,8 @@ export default function Navbar() {
               <FaDumbbell className="text-white text-lg" />
             </div>
             <div>
-              <span className="font-bebas text-2xl text-white tracking-wider">FITX<span className="text-orange-500">ONE</span></span>
-              <p className="text-[9px] text-zinc-400 tracking-widest uppercase -mt-1">GYM · Sector 23 Faridabad</p>
+              <span className="font-bebas text-xl text-white tracking-wider">Indian <span className="text-orange-500">Fitness Zone</span></span>
+              <p className="text-[9px] text-zinc-400 tracking-widest uppercase -mt-1">Ballabgarh · Faridabad</p>
             </div>
           </Link>
 
@@ -57,11 +57,11 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+917217829394"
+              href="tel:+917859995004"
               className="flex items-center gap-2 text-zinc-300 hover:text-orange-400 text-sm transition-colors"
             >
               <FaPhone className="text-orange-500" />
-              072178 29394
+              078599 95004
             </a>
             <Link
               href="/contact"
@@ -97,10 +97,10 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:+917217829394"
+              href="tel:+917859995004"
               className="flex items-center gap-2 text-orange-400 py-2"
             >
-              <FaPhone /> 072178 29394
+              <FaPhone /> 078599 95004
             </a>
             <Link
               href="/contact"
